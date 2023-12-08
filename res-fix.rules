@@ -1,0 +1,1 @@
+ACTION=="change", KERNEL=="card0", SUBSYSTEM=="drm", ENV{DISPLAY}=":0", ENV{XAUTHORITY}="/home/sam/.Xauthority", RUN+="/home/sam/repos/personal/resfix/update-res.sh"
